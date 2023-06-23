@@ -19,3 +19,4 @@ II. Install the required dependencies:
   pip install -r requirements.txt
   
 ## Attention
+Some classes may have changed due to newer versions of dependencies.
