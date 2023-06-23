@@ -1,0 +1,5 @@
+python>=3.0
+opencv-python
+numpy
+face-recognition
+pandas
