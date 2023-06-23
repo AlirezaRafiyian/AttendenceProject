@@ -13,8 +13,6 @@ images = []
 classNames = []
 myList = os.listdir(path)
 
-# print(myList)
-
 """Reading the image file and creating the list of employees """
 for cl in myList:
     curImg = cv2.imread(f'{path}/{cl}')
@@ -82,7 +80,6 @@ while True:
         
         if matches[matchIndex]:
             name = classNames[matchIndex].upper()
-            # print(name)
             y1,x2,y2,x1 = faceLoc
             # y1,x2,y2,x1 = y1*4,x2*4,y2*4,x1*4
             cv2.rectangle(img,(x1,y1),(x2,y2),(0,255,0),2)
